@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{margin: 0px 50px;}
+
+header{display: flex;justify-content: center;margin-top: 50px;flex-direction: column;align-items: center;}
+.header-img{width: 20%;}
+.header-img img{width: 100%;margin-bottom: 20px;}
+
+.all-facts{margin: 40px 0px 80px;}
+.result-facts{margin: 40px 0px 100px;}
+.new-facts form, .previous-facts form{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.new-facts form input{margin-bottom: 10px;}
+.new-submit, .previous-submit{padding: 5px 15px;}
+
+.facts ul, .previous-facts ul{list-style-type: none;padding: 0;margin: 0;}
+.facts li, .previous-facts li{padding-left: 1rem;text-indent: -0.75rem;margin-bottom: 15px;text-align: center;}
+.facts li::before{content: '✨ ';}
+.previous-facts li::before{content: '⭐ ';}
+
+footer{display: flex;justify-content: center;align-items: center;flex-direction: column;border-top: 1px solid #222;}
